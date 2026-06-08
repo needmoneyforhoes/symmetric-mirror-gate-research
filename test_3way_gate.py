@@ -5,7 +5,7 @@ Uses tick-level book data for actual opp prices (not proxy).
 Separates ALL / LIVE / SHADOW results.
 
 Usage:
-    cd /home/polybot/polymarket-bot
+    cd .
     python3 test_3way_gate.py
 """
 
