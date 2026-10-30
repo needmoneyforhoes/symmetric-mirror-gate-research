@@ -35,3 +35,8 @@ python3 inverted_up_gate.py market_history.jsonl
 ## Data
 
 Loads `market_history.jsonl` (tick + book columns) and `market_recap_history.jsonl` (fires + winner) from the private `polymarket-data` repo. `part16_sweep_gateaware.py` and `sym_dn_live_sweep.py` read `$DATA_DIR`; `test_3way_gate.py` reads its own directory; `inverted_up_gate.py` takes the path as `argv[1]`. Place or symlink the files accordingly. No `*.jsonl` is committed (see `.gitignore`).
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/symmetric-mirror-gate-research/issues/new). Pull requests are welcome too.
